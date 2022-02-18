@@ -7,6 +7,7 @@ const FormInput = (props) => {
         <label htmlFor=""></label>
         <input 
         placeholder={props.placeholder}
+        name={props.name}
         />
     </div>
   )
